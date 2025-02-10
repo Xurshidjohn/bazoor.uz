@@ -198,7 +198,9 @@ font-family: arial;
 /*	background-color: blue;*/
 }
 
-.cards .card button {
+.cards .card a {
+	text-decoration: none;
+	font-family: sans-serif;
 	background-color: #3b5998;
 	color: #f2f2f2;
 	border: none;
@@ -207,4 +209,55 @@ font-family: arial;
 
 .cards .card button {
 	cursor: pointer;
+}
+
+.block_2 {
+	width: 100%;
+	margin-top: 5px;
+	border-collapse: collapse;
+	border: solid 5px #3b5998;
+}
+
+.img_table {
+/*	width: 62%;*/
+}
+
+.block_1 {
+	display: flex;
+}
+
+
+.pr_title_text {
+	margin-top: 10px;
+/*	height: 10vh;*/
+	font-family: sans-serif;
+	color: #333333;
+/*	border: solid 1px black;*/
+/*	text-align: center;*/
+}
+
+.block-3 {
+	padding: 20px;
+	width: 40%;
+	line-height: 2;
+}
+
+
+.p_price {
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.buy_button {
+	padding: 10px;
+	background-color: #3b5998;
+	color: #e2e2e2;
+	border: none;
+	cursor: pointer;
+}
+
+.span_class {
+	font-family: sans-serif;
+	color: #333333;
+	font-size: 20px;
 }

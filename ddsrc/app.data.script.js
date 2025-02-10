@@ -15,7 +15,7 @@ $(document).ready(function() {
 						<hr class="cd_hr">
 					<span class="cd_price">${element.pr_price}$</span>
 					<hr class="cd_hr-2">
-					<button class="cd_btn">Ko'proq</button>
+					<a href='viewssrc/view.php?token=${element.pr_token}&id=${element.pr_id}' class="cd_btn">Ko'proq</a>
 					</div>
 				</div>
 			`;
@@ -43,10 +43,10 @@ $("#search_field").on('keyup', function(e) {
 						<hr class="cd_hr">
 					<span class="cd_price">${element.pr_price}$</span>
 					<hr class="cd_hr-2">
-					<button class="cd_btn">Ko'proq</button>
+					<a href='viewssrc/view.php?token=${element.pr_token}&id=${element.pr_id}' class="cd_btn">Ko'proq</a>
 					</div>
 				</div>
-			`;
+			`
 			})
 			$("#cards").html(data1);
 		}
@@ -77,7 +77,7 @@ $(document).ready(function() {
 								<hr class="cd_hr">
 								<span class="cd_price">${element.pr_price}$</span>
 								<hr class="cd_hr-2">
-								<button class="cd_btn">Ko'proq</button>
+					<a href='viewssrc/view.php?token=${element.pr_token}&id=${element.pr_id}' class="cd_btn">Ko'proq</a>
 							</div>
 						</div>
 						`;
